@@ -68,9 +68,12 @@ section {
     height: 300px;
     margin-top: 110px;
     margin-left: 160px;
-    opacity: .6;
 }
 
+div.atu{
+    background-color: blueviolet;
+    height: 250px;
+}
 
 section h2 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -81,6 +84,7 @@ section h2 {
     height: 50px;
     padding-top: 15px;
     padding-left: 15px;
+    
 
 }
 
@@ -103,10 +107,9 @@ div.aty p {
 
 }
 
-
 div.two footer {
-
-    height: 30px;
+    margin-top: -20px;
+    height: 35px;
     padding-top: 25px;
     padding-left: 55px;
     padding-bottom: 15px;
