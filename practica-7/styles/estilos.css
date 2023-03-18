@@ -41,12 +41,12 @@ div.one {
 
 }
 
-h1{
+h1 {
     font-family: 'SixCaps', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 h1 {
-    padding-left: 0.3em;  
+    padding-left: 0.3em;
     font-size: 3.4em;
     margin-top: 0.4em;
     margin-right: 0em;
@@ -61,6 +61,60 @@ div.one h2 {
     font-size: 0.9em;
     margin-top: -2.0em;
 }
+
+section {
+    background-color: white;
+    width: 550px;
+    height: 300px;
+    margin-top: 110px;
+    margin-left: 160px;
+    opacity: .6;
+}
+
+
+section h2 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+    font-size: 1.5em;
+    background-color: blue;
+    width: 535px;
+    height: 50px;
+    padding-top: 15px;
+    padding-left: 15px;
+
+}
+
+section p {
+    font-size: 2em;
+    margin-left: 0.5em;
+}
+
+div.aty p {
+    font-size: 1.5em;
+    color: white;
+    width: 350px;
+    height: 30px;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-bottom: 15px;
+    background-color: black;
+    opacity: .4;
+    margin-top: -20px;
+
+}
+
+
+div.two footer {
+
+    height: 30px;
+    padding-top: 25px;
+    padding-left: 55px;
+    padding-bottom: 15px;
+    background-color: pink;
+    font-size: 1em;
+
+}
+
 
 /*section{
     background-color: plum;
@@ -107,7 +161,6 @@ section h2{
 
 section p{
     font-size: 1.5em;
-
     margin-left: 0.5em;
 }
 
