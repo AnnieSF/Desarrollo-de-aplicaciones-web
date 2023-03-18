@@ -1,0 +1,129 @@
+body {
+    background-image:
+        url(../images/art-background4.jpg);
+    background-size: cover;
+}
+
+html,
+body,
+section,
+header,
+nav {
+    margin: 0;
+    padding: 0;
+}
+
+
+@font-face {
+    font-family: 'SixCaps';
+    font-style: normal;
+    font-weight: normal;
+    src: url('../fonts/SixCaps-Regular.ttf') format("truetype");
+}
+
+/*body {
+    height: 100%;
+    background-repeat: no-repeat;
+    background: url(../images/art-background4.jpg) no-repeat center center fixed;
+    background-size: 100% 100%;
+}*/
+
+header {
+    background: white;
+    color: black;
+    height: 150px;
+    width: 360px;
+    margin-left: 10em;
+}
+
+div.one {
+    position: absolute;
+
+}
+
+h1{
+    font-family: 'SixCaps', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h1 {
+    padding-left: 0.3em;  
+    font-size: 3.4em;
+    margin-top: 0.4em;
+    margin-right: 0em;
+    margin-bottom: 0.5em;
+    margin-left: 0em;
+
+}
+
+div.one h2 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-left: 1.2em;
+    font-size: 0.9em;
+    margin-top: -2.0em;
+}
+
+/*section{
+    background-color: plum;
+    margin: 1em 6em 1em 6em;
+    border:solid 1pt black;
+}
+section h2{
+    color: mintcream;
+    padding: 0.5em;
+    background-color: aqua;
+
+}
+section p{
+    margin-left: 0.5em;
+}
+
+div.two{
+    background-color: white;
+    font-size: 0.75em;
+    padding: 0.5em;
+    margin-top: 1em;
+}
+
+*/
+
+
+
+/*ddddarticle{
+    background-color: white;
+    margin: 10em 55.5em 0em 10em;
+    border:solid 1pt black;
+    height: 14em;
+}
+
+
+section h2{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.5em;
+    color: black;
+    padding: 0.80em;
+    background-color: aqua;
+    margin-top: -2.65em;
+}
+
+section p{
+    font-size: 1.5em;
+
+    margin-left: 0.5em;
+}
+
+div.two footer{
+
+    background-color:pink;
+    font-size: 1em;
+    padding: 0.5em;
+    margin-top: 4.69em;
+}
+
+div.aty p{
+    color: white;
+    width: 15em;
+    height: 2.5em;
+    background-color: black;
+    opacity: .4;
+
+}*/
