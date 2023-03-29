@@ -6,3 +6,220 @@ html, body, header, footer, hgroup, nav, article, section, figure, figcaption, h
    vertical-align: baseline;
    border: 0;
 }
+
+header {
+   display: flex;
+   flex-direction: row;
+   height: 40px;
+   background-color:  #0f5cb4 ;
+   justify-content: start;
+   align-items: center;
+   justify-content: cen;
+
+}
+
+header > nav {
+   display: inline;
+   flex-direction: row;
+}
+
+header > a {
+   text-decoration: none;
+   color: white;
+   font-size: 24px;
+   padding: 0 80px;
+}
+
+header nav ul {
+   padding-right: 0px;
+   padding-left: 0px;
+   padding-bottom: 0px;
+   padding-top: 0px;
+   margin: 0px;
+}
+
+header nav ul li {
+   list-style-type: none;
+   display: inline;
+   padding-right: 5px;
+   text-decoration: none;
+}
+
+header nav a {
+   color: white;
+   font-size: 16px;
+   text-decoration: none;
+}
+
+main {
+   display: grid;
+   grid-template-columns: 25% 50% 25%;
+}
+
+main .texto-central {
+   grid-column: 2 / 3;
+   grid-row: 1;
+}
+
+main .texto-izquierdo {
+   grid-column: 1 / 2;
+}
+
+main .aside {
+   grid-column: 3 / 4;
+}
+
+
+/*Cuadros principales*/
+
+.texto-izquierdo-cuadro {
+   background-color: dimgray;
+   padding: 16px;
+   color: #ffffff;
+}
+
+.texto-izquierdo-cuadro > a {
+   text-decoration: none;
+}
+
+.texto-izquierdo-actividades {
+   padding: 24px;
+   margin-bottom: 16px;
+   background-color: darkgray;
+   margin-top: 16px;
+}
+
+.texto-izquierdo-actividades ul {
+   list-style-type: none;
+   margin-left: 12px;
+   line-height: 24px;
+}
+
+.texto-izquierdo-mensajes {
+   background-color: #0f5cb450;
+   font-size: 20px;
+   padding: 16px;
+   
+}
+
+
+.texto-izquierdo-lista {
+   padding: 8px 16px;
+   line-height: 24px;
+   background-color:darkgrey;
+}
+
+.texto-izquierdo-lista li {
+   list-style-type: none;
+   display: flex;
+   justify-content: row;
+   gap: 16px;
+   margin-bottom: 8px;
+   background-color: white;
+
+
+}
+
+
+/*Cuadro central*/
+
+.texto-central {
+   padding: 0 16px;
+}
+.texto-central-inicio {
+   padding: 8px;
+   margin-bottom: 16px;
+}
+
+.texto-central > h2{
+   font-size: 24px;
+}
+
+.texto-central-persona {
+   float: left;
+   margin-bottom: 40px;
+}
+
+.texto-central-persona2 {
+   float: right;
+   margin-bottom: 40px;
+}
+
+.texto-central-hr {
+   margin-top: 40px;
+   width: 100%;
+}
+
+
+.texto-central-table {
+   width: 100%;
+}
+
+#texto-central-button {
+   display: block;
+   width: 200px;
+   height: 32px;
+   text-align: center;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 24px;
+   background-color: #0f5cb4;
+}
+
+#texto-central-button a {
+   color: white;
+   font-size: 16px;
+   text-decoration: none;
+}
+
+/*Aside */
+
+.aside h3 {
+   background-color: #0f5cb450;
+   color: black;
+   font-size: 20px;
+   padding: 12px;
+}
+
+.aside-lista1 {
+   line-height: 28px;
+   padding: 16px;
+   margin-bottom: 16px;
+   margin-top: 16px;
+   background-color: darkgray;
+}
+
+.aside-lista1 li {
+   width: 100%;
+   list-style-type: none;
+   background-color: white;
+}
+
+.aside-lista1 li span {
+   font-size: 24px;
+   margin-left: 20px;
+}
+
+.aside-lista1 li p {
+   float: right;
+   margin-right: 50px;
+}
+
+.aside-lista2 {
+   padding: 16px;
+   background-color: darkgray;
+   min-height: 500px;
+   height: 600px;
+}
+
+.aside-lista2 li {
+   list-style-type: none;
+   width: 100%;
+}
+
+
+.aside-lista2 p {
+   float: right;
+   font-size: 14px;
+}
