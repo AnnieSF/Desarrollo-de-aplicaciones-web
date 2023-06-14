@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="es_MX">
+
+<head>
+  <meta charset="utf-8">
+
+  <title>PlayColors</title>
+  <meta name="description" content="">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/owl.carousel.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/ionicons.min.css">
+  <link rel="stylesheet" href="css/animate.css">
+  <link rel="stylesheet" href="css/responsive.css">
+
+  <!-- SCRIPT -->
+  <script language = "javascript">
+    var XMLHttpRequestObject = false;
+    if (window.XMLHttpRequest) {
+    XMLHttpRequestObject = new XMLHttpRequest();
+    } else if (window.ActiveXObject) {
+    XMLHttpRequestObject = new ActiveXObject("Microsoft.XMLHTTP");
+    }
+    function pedirDatos(fuenteDatos, divID){
+    if(XMLHttpRequestObject) {
+    var obj = document.getElementById(divID);
+    XMLHttpRequestObject.open("GET", fuenteDatos);
+    XMLHttpRequestObject.onreadystatechange = function(){
+    if (XMLHttpRequestObject.readyState == 4 && XMLHttpRequestObject.status == 200) {
+    obj.innerHTML = XMLHttpRequestObject.responseText;
+    }
+    }
+    XMLHttpRequestObject.send(null);
+    }
+    }
+    </script>
+
+</head>
+
+<body>
+
+
+
+  <!-- Header -->
+  <header>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <nav class="navbar navbar-default">
+            <div class="container-fluid">
+              <div class="navbar-header">
+
+                <a class="navbar-brand" href="index.html">
+                  <img src="img/logo.png" alt="Logo">
+                </a>
+              </div>
+              <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                  <li><a href="index.html">INICIO</a></li>
+                  <li><a href="grabado/grabado.html">GRABADO</a></li>
+                  <li><a href="impresion/impresion.html">IMPRESION</a></li>
+                  <li><a href="estampado/estampado.html">ESTAMPADO</a></li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Slider Start -->
+  <section id="slider">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-10 col-md-offset-2">
+          <div class="block">
+            <h1 class="animated fadeInUp"> PLAYCOLORS UNA <br> AGENCIA DE PUBLICIDAD </h1>
+            <p class="animated fadeInUp">Te gusta dar pequequeños detalles que sean inolvidables <br> nuestros servicios
+              son para ti, si deseas productos de calidad </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Wrapper Start -->
+  <section id="intro">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-7 col-sm-12">
+
+          <div class="section-title">
+            <h2>PlayColors</h2>
+
+          </div>
+          <p>La motivacion puede venir de cualquier parte. Solo hay que saber identificar esas fuentes y conectar con
+            ellas. Por que un lider es alquien que conoce el camino, anda el camino y muetra el camino (John C.
+            Maxwell). </p>
+
+        </div><!-- .col-md-7 close -->
+        <div class="col-md-5 col-sm-12">
+          <div class="block">
+            <img src="img/wrapper-img.gif" alt="Img">
+          </div>
+        </div><!-- .col-md-5 close -->
+      </div>
+    </div>
+  </section>
+
+  <section id="feature">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 col-md-offset-6">
+          <h2>TE DAMOS LAS MEJORES IDEAS</h2>
+          <p>LEMA DEL CENTRO PUBLICITARIO</p>
+          <p>Nuestras Sucursales te ofrecen una gran variedad de productos que te ayudaran en el desarrollo de tu propia
+            publidad (negocios, escuelas, campañas, publicitarias, mitings).</p>
+          <p>Manejamos productos desde la impresion de lonas, graBados en llaveros, reconocimientos, diseño de playeras
+            eh incluso gorras, entre muchos mas.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Service Start -->
+  <section id="service">
+    <div class="container">
+      <div class="row">
+        <div class="section-title">
+          <h2>LO MAS VENDIDO</h2>
+          <p>Para poder ayudarte en la selecion de tus productos, a continuacion te mostramos los mas pedidos y elegidos
+            por nuestros compradores.</p>
+        </div>
+      </div>
+      <div class="row ">
+        <div class="col-sm-6 col-md-3">
+          <div class="service-item">
+            <img src="img/Tabloide.jpg" class="imh" alt="impresion">
+            <h4>Impresión</h4>
+            <p>Impresión en Tabloide</p>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-3">
+          <div class="service-item">
+            <img src="img/8.jpg" class="imh" alt="grabado">
+            <h4>Grabado</h4>
+            <p>Grabado punta diamante</p>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-3">
+          <div class="service-item">
+            <img src="img/9.jpg" class="imh" alt="tazas">
+            <h4>Tazas</h4>
+            <p>Sublimación de tazas</p>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-3">
+          <div class="service-item">
+            <img src="img/10.jpg" class="imh" alt="vinil">
+            <h4>Vinil</h4>
+            <p>Vinil textil y normal</p>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-3">
+          <div class="service-item">
+            <img src="img/12.jpg" class="imh" alt="lona">
+            <h4>Lona</h4>
+            <p>Calidad HD y Fotografica</p>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-3">
+          <div class="service-item">
+            <img src="img/11.jpg" class="imh" alt="sudaderas">
+            <h4>Sudaderas</h4>
+            <p>Estampado en vinil</p>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-3">
+          <div class="service-item">
+            <img src="img/13.jpg" class="imh" alt="llaveros">
+            <h4>Llaveros</h4>
+            <p>Llavero en grabado</p>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-3">
+          <div class="service-item">
+            <img src="img/14.jpg" class="imh" alt="reconocimientos">
+            <h4>Reconocimientos</h4>
+            <p>Impresion y Grabado</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Call to action Start -->
+  <section id="call-to-action">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="block">
+            <h2> Diseñamos hermosas experiencias comerciales.</h2>
+            <p>Juzgue por sí mismo el trabajo y los resultados,conozca nuestro Equipo altamente experimentado que le
+              encanta diseñar.</p>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!------------------------------------------------------------------------------------->
+  <H1>Mostrando datos con AJAX</H1>
+  <form>
+  <input type = "button" value = "Mostrar mensaje" onclick = "pedirDatos('datos.txt','targetDiv')">
+  </form>
+  <div id="targetDiv" style="background-color:#99FF66;">
+  <p>Aquí aparecerá texto</p>
+  </div>
+    <!------------------------------------------------------------------------------------->
+
+
+    <!-- footer Start -->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="footer-manu">
+              <ul>
+                <li><a href="index.html">Regresar</a></li>
+              </ul>
+            </div>
+            <p>Copyright &copy; Crafted by <em>DAW 4DV1.</em> </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+
+
+
+
+</body>
+
+</html>
